@@ -14,9 +14,9 @@ jobs:
 
         steps:
         - name: Mensagem
-            run: echo "Bom Dia!"
+         run: echo "Bom Dia!"
         - name: Mostra o diretório de trabalho
-            run: pwd
+         run: pwd
         - name: Lista arquivos do dir
-            run: ls -a
+         run: ls -a
                 

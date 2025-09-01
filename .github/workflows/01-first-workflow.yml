@@ -1,18 +1,13 @@
-name: primeiro CI
+name: 01 primeiro CI
 
 on:
-    push:
+   push:
       branches: [ "main" ]
-
-    workflow_dispatch:
-
+   workflow_dispatch:
 jobs:
-
-    first-job:
-
-        runs-on: ubuntu-latest
-
-        steps:
+  primeiro-job:
+     runs-on: ubuntu-latest
+     steps:
         - name: Mensagem
          run: echo "Bom Dia!"
         - name: Mostra o diretório de trabalho

@@ -13,9 +13,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Imprime uma mensagem
-        run: echo "bom dia"
+      - name: Meu nome e RA
+        run: echo "Diego Alves - RA 6324649"
       - name: Mostra o diretório de trabalho
         run: pwd
-      - name: Lista os arquivos do diretório
-        run: ls ~ -a
+      - name: Nome do repo
+        run: echo ${{ github.repository }}
